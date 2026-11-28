@@ -23,4 +23,4 @@ Variação da dupla: nome dupla-07, mensagem "Olá da dupla 07", porta 5007.
 
 Vinicius: criou a API Flask, o fluxo de testes (ci.yml) e o test_vinicius.py, a página de status com testes antes da publicação (pages.yml), verificou a visibilidade da imagem no ghcr.io, fez o git revert da v2 e publicou a v3.
 
-Vitor: A completar pelo aluno B
+Vitor: criou o Dockerfile e o workflow de publicação de imagens no GHCR, realizou o commit e publicou a primeira versão (v1). Em seguida, alterou a porta da aplicação de 5007 para 5008, publicou a v2 e testou o contêiner, identificando por meio do curl e dos logs que os testes automatizados não detectaram a falha. Executou o rollback operacional para a v1, restaurando o serviço, e posteriormente validou a versão v3, publicada após o git revert realizado por Vinicius, confirmando o funcionamento da aplicação na porta 5007.
