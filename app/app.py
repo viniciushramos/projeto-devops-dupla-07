@@ -5,7 +5,7 @@ from flask import Flask, jsonify
 # ===== VARIAÇÃO DA DUPLA (mude estes valores) =====
 NOME_DUPLA = "dupla-07"
 MENSAGEM = "Olá da dupla 07"
-PORTA = 5007
+PORTA = 5008
 # ==================================================
 
 VERSAO = os.environ.get("APP_VERSION", "v1")
